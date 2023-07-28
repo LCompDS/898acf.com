@@ -1752,6 +1752,59 @@ input, select, textarea {
 
 		}
 
+/* Container2 */
+
+.video-wrap {position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden;}
+.video-wrap iframe,
+.video-wrap object,
+.video-wrap embed {position:absolute; top:0; left:0; width:100%; height:100%;}
+
+	.container2 {
+		margin: 0 auto;
+		max-width: calc(100% - 4.5em);
+		width: 45em;
+	}
+
+		.container2.xsmall {
+			width: 11.25em;
+		}
+
+		.container2.small {
+			width: 22.5em;
+		}
+
+		.container2.medium {
+			width: 33.75em;
+		}
+
+		.container2.large {
+			width: 56.25em;
+		}
+
+		.container2.xlarge {
+			width: 67.5em;
+		}
+
+		.container2.max {
+			width: 100%;
+		}
+
+		@media screen and (max-width: 1024px) {
+
+			.container2 {
+				width: 100% !important;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.container2 {
+				max-width: calc(100% - 3.375em);
+			}
+
+		}
+
 /* Section/Article */
 
 	section.special, article.special {
@@ -2903,6 +2956,9 @@ input, select, textarea {
 
 			#main > section > .container {
 				padding: 4em 0 2em 0;
+			}
+        			#main > section > .container2 {
+				padding: 0em 0 2em 0;
 			}
 
 	}

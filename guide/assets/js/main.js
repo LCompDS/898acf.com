@@ -142,7 +142,8 @@
 					target: $body,
 					visibleClass: 'header-visible'
 				});
-
+  
+    
 	// Scrolly.
 		$('.scrolly').scrolly({
 			speed: 1000,
